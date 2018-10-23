@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="243.5">jetbrains.DrawPanel.MovingAdapter</node>
+    <node x="1751.25" y="254.0">jetbrains.Exitbutton</node>
+    <node x="491.375" y="0.0">jetbrains.Rectshape</node>
+    <node x="958.0" y="254.0">jetbrains.MyColorItem</node>
+    <node x="1752.25" y="505.5">jetbrains.InfoDialog</node>
+    <node x="1263.0" y="210.0">jetbrains.InformationPanel</node>
+    <node x="596.0" y="254.5">jetbrains.DrawPanel.ScalingAdapter</node>
+    <node x="279.125" y="472.0">jetbrains.DrawPanel</node>
+    <node x="124.66666666666663" y="0.0">jetbrains.Ellipshape</node>
+    <node x="1446.25" y="505.5">jetbrains.ZadanieWindowAdapter</node>
+    <node x="1287.75" y="640.0">jetbrains.Zadanie</node>
+    <node x="297.0" y="232.5">jetbrains.DrawPanel.MyDrawingListener</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jetbrains.DrawPanel.ScalingAdapter" target="jetbrains.Rectshape">
+      <point x="85.5" y="-36.5" />
+      <point x="852.5" y="190.0" />
+      <point x="726.375" y="190.0" />
+      <point x="94.0" y="70.0" />
+    </edge>
+    <edge source="jetbrains.DrawPanel" target="jetbrains.DrawPanel.MovingAdapter">
+      <point x="-209.60000000000002" y="-59.0" />
+      <point x="331.525" y="442.0" />
+      <point x="103.875" y="442.0" />
+      <point x="-34.625" y="47.5" />
+    </edge>
+    <edge source="jetbrains.DrawPanel.MovingAdapter" target="jetbrains.DrawPanel">
+      <point x="103.875" y="47.5" />
+      <point x="242.375" y="422.0" />
+      <point x="401.39166666666665" y="422.0" />
+      <point x="-139.73333333333335" y="-59.0" />
+    </edge>
+    <edge source="jetbrains.DrawPanel" target="jetbrains.DrawPanel.MyDrawingListener">
+      <point x="-69.86666666666667" y="-59.0" />
+      <point x="471.2583333333333" y="402.0" />
+      <point x="401.625" y="402.0" />
+      <point x="-34.875" y="58.5" />
+    </edge>
+    <edge source="jetbrains.Zadanie" target="jetbrains.InformationPanel">
+      <point x="23.75" y="-48.0" />
+      <point x="1454.0" y="620.0" />
+      <point x="1435.75" y="620.0" />
+      <point x="1435.75" y="452.0" />
+      <point x="1458.125" y="452.0" />
+      <point x="83.625" y="81.0" />
+    </edge>
+    <edge source="jetbrains.InfoDialog" target="jetbrains.Exitbutton">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="jetbrains.Zadanie" target="jetbrains.InfoDialog">
+      <point x="118.75" y="-48.0" />
+      <point x="1549.0" y="620.0" />
+      <point x="1893.75" y="620.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="jetbrains.DrawPanel.MyDrawingListener" target="jetbrains.Rectshape">
+      <point x="69.75" y="-58.5" />
+      <point x="506.25" y="190.0" />
+      <point x="632.375" y="190.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="jetbrains.DrawPanel.MovingAdapter" target="jetbrains.Ellipshape">
+      <point x="-69.25" y="-47.5" />
+      <point x="69.25" y="190.0" />
+      <point x="171.33333333333326" y="190.0" />
+      <point x="-93.33333333333337" y="70.0" />
+    </edge>
+    <edge source="jetbrains.DrawPanel.ScalingAdapter" target="jetbrains.DrawPanel">
+      <point x="114.0" y="36.5" />
+      <point x="881.0" y="412.0" />
+      <point x="645.925" y="412.0" />
+      <point x="104.79999999999995" y="-59.0" />
+    </edge>
+    <edge source="jetbrains.DrawPanel" target="jetbrains.MyColorItem">
+      <point x="174.66666666666663" y="-59.0" />
+      <point x="715.7916666666666" y="432.0" />
+      <point x="1171.75" y="432.0" />
+      <point x="71.25" y="37.0" />
+    </edge>
+    <edge source="jetbrains.DrawPanel" target="jetbrains.InformationPanel">
+      <point x="209.60000000000002" y="-59.0" />
+      <point x="750.725" y="442.0" />
+      <point x="1290.875" y="442.0" />
+      <point x="-83.625" y="81.0" />
+    </edge>
+    <edge source="jetbrains.DrawPanel.MyDrawingListener" target="jetbrains.DrawPanel">
+      <point x="104.625" y="58.5" />
+      <point x="0.0" y="-59.0" />
+    </edge>
+    <edge source="jetbrains.Zadanie" target="jetbrains.DrawPanel">
+      <point x="-118.75" y="-48.0" />
+      <point x="1311.5" y="620.0" />
+      <point x="410.125" y="620.0" />
+      <point x="-131.0" y="59.0" />
+    </edge>
+    <edge source="jetbrains.DrawPanel" target="jetbrains.DrawPanel.ScalingAdapter">
+      <point x="34.93333333333328" y="-59.0" />
+      <point x="576.0583333333333" y="392.0" />
+      <point x="653.0" y="392.0" />
+      <point x="-114.0" y="36.5" />
+    </edge>
+    <edge source="jetbrains.DrawPanel.MyDrawingListener" target="jetbrains.Ellipshape">
+      <point x="-69.75" y="-58.5" />
+      <point x="366.75" y="170.0" />
+      <point x="264.66666666666663" y="170.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="jetbrains.Zadanie" target="jetbrains.ZadanieWindowAdapter">
+      <point x="71.25" y="-48.0" />
+      <point x="1501.5" y="610.0" />
+      <point x="1589.25" y="610.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="jetbrains.DrawPanel.ScalingAdapter" target="jetbrains.Ellipshape">
+      <point x="-85.5" y="-36.5" />
+      <point x="681.5" y="160.0" />
+      <point x="358.0" y="160.0" />
+      <point x="93.33333333333337" y="70.0" />
+    </edge>
+    <edge source="jetbrains.DrawPanel.MovingAdapter" target="jetbrains.Rectshape">
+      <point x="69.25" y="-47.5" />
+      <point x="207.75" y="180.0" />
+      <point x="538.375" y="180.0" />
+      <point x="-94.0" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="299.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
