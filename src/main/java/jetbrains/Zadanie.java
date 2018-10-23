@@ -16,8 +16,10 @@ import javax.swing.JFrame;
 
 
 /**
- * Pomcnicza klasa odpowiadająca a zamykanie okna głównego.
+ * Pomcnicza klasa odpowiadająca a zamykanie okna.
  */
+
+//Jakikolwiek
 
 class ZadanieWindowAdapter extends WindowAdapter {
   public void windowClosing(WindowEvent e) {
