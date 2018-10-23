@@ -1,7 +1,5 @@
 package jetbrains;
 
-//besgfsugf
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dialog;
@@ -20,8 +18,6 @@ import javax.swing.JFrame;
 /**
  * Pomcnicza klasa odpowiadająca a zamykanie okna.
  */
-
-//Jakikolwiek
 
 class ZadanieWindowAdapter extends WindowAdapter {
   public void windowClosing(WindowEvent e) {
